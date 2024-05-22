@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>886</width>
+    <height>615</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Autores</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../imagenes/logoLibreria.svg</normaloff>../imagenes/logoLibreria.svg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <widget class="QTableWidget" name="tblWdgtUsuarios">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>120</y>
+      <width>791</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255,10);
+color: rgb(0, 0, 0);
+border:none;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>781</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(255,255,255);</string>
+    </property>
+    <property name="text">
+     <string>Autores</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnInsertar">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>500</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(50, 145, 165);
+}
+QPushButton{
+	
+	background-color: rgb(255, 138, 42);
+	color: rgb(255,255,255)
+}
+QPushButton:hover{
+background-color: rgb(255, 104, 3);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>INSERTAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnActualizar">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>500</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(50, 145, 165);
+}
+QPushButton{
+	
+	background-color: rgb(255, 138, 42);
+	color: rgb(255,255,255)
+}
+QPushButton:hover{
+background-color: rgb(255, 104, 3);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>ACTUALIZAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnEliminar">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>500</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(50, 145, 165);
+}
+QPushButton{
+	
+	background-color: rgb(255, 138, 42);
+	color: rgb(255,255,255)
+}
+QPushButton:hover{
+background-color: rgb(255, 104, 3);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>ELIMINAR</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtNombres">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>490</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255,10);
+color: rgb(255, 255, 255);
+border:none;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Nombres autor</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtApellidos">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>490</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255,10);
+color: rgb(255, 255, 255);
+border:none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Apellidos autor</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spIdAutor">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>500</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255,10);
+color: rgb(255, 255, 255);
+border:none;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblUsuario">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>20</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblMensaje">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>540</y>
+      <width>451</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnReporte">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>550</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(50, 145, 165);
+}
+QPushButton{
+	
+	background-color: rgb(255, 138, 42);
+	color: rgb(255,255,255)
+}
+QPushButton:hover{
+background-color: rgb(255, 104, 3);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Generar Repote</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>901</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagenes/fondo.svg</pixmap>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>tblWdgtUsuarios</zorder>
+   <zorder>label</zorder>
+   <zorder>btnInsertar</zorder>
+   <zorder>btnActualizar</zorder>
+   <zorder>btnEliminar</zorder>
+   <zorder>txtNombres</zorder>
+   <zorder>txtApellidos</zorder>
+   <zorder>spIdAutor</zorder>
+   <zorder>lblUsuario</zorder>
+   <zorder>lblMensaje</zorder>
+   <zorder>btnReporte</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

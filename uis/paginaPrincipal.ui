@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BbvaMovil</class>
+ <widget class="QMainWindow" name="BbvaMovil">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>669</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+    <pointsize>11</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>STARBOOK</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../imagenes/logoLibreria.svg</normaloff>../imagenes/logoLibreria.svg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="maximumSize">
+    <size>
+     <width>1920</width>
+     <height>1080</height>
+    </size>
+   </property>
+   <widget class="QPushButton" name="btnClientes">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>250</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(50, 145, 165);
+}
+QPushButton{
+	
+	background-color: rgb(255, 138, 42);
+	color: rgb(255,255,255)
+}
+QPushButton:hover{
+background-color: rgb(255, 104, 3);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Clientes</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblIniciarSesion">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>50</y>
+      <width>161</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(85, 85, 255,10);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagenes/logoLibreria.svg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-50</x>
+      <y>-10</y>
+      <width>811</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagenes/fondo.svg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAutores">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>340</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(50, 145, 165);
+}
+QPushButton{
+	
+	background-color: rgb(255, 138, 42);
+	color: rgb(255,255,255)
+}
+QPushButton:hover{
+background-color: rgb(255, 104, 3);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Autores</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnLibros">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>250</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(50, 145, 165);
+}
+QPushButton{
+	
+	background-color: rgb(255, 138, 42);
+	color: rgb(255,255,255)
+}
+QPushButton:hover{
+background-color: rgb(255, 104, 3);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Libros</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPedidos">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>340</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(50, 145, 165);
+}
+QPushButton{
+	
+	background-color: rgb(255, 138, 42);
+	color: rgb(255,255,255)
+}
+QPushButton:hover{
+background-color: rgb(255, 104, 3);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Pedidos</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblUsuario">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>50</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCategorias">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>420</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(50, 145, 165);
+}
+QPushButton{
+	
+	background-color: rgb(255, 138, 42);
+	color: rgb(255,255,255)
+}
+QPushButton:hover{
+background-color: rgb(255, 104, 3);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Categorias</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>btnClientes</zorder>
+   <zorder>lblIniciarSesion</zorder>
+   <zorder>btnAutores</zorder>
+   <zorder>btnLibros</zorder>
+   <zorder>btnPedidos</zorder>
+   <zorder>lblUsuario</zorder>
+   <zorder>btnCategorias</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
